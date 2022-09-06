@@ -56,6 +56,7 @@ main{
 .b1{
 	position: absolute;
 	top: 30px;
+	right: 10px;
 	list-style: inside;
 }
 
