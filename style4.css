@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 2.6rem;
+}
+
+h2 {
+    font-size: 5rem;
+    margin: 3rem;
+}
+
+h3 {
+    font-size: 5rem;
+    margin: 3vh;
+}
+
+h4 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+
+li {
+    font-size: 2rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.main-head {
+    background: rgba(0, 18, 56, 255);
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo {
+    flex: 1 1 40rem;
+}
+
+button{
+    padding: 1vh 5vh;
+    margin: 2vh;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+/* SECTION */
+
+.hero1 {
+    min-height: 75vh;
+    background: linear-gradient(rgb(0, 0, 0, 0.4), transparent), url('wt.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero2 {
+    min-height: 75vh;
+    background: linear-gradient(rgb(0, 0, 0, 0.4), transparent), url('classement2.png');
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.classement{
+    background: rgb(0, 0, 0);
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.desclassement{
+    margin: 0 10vh 10vh 10vh;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.categorie{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.homme{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 0 10vh 10vh 10vh;
+    width: 500px;
+    height: 50vh;
+    color: white;
+}
+
+.homme div {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    height: 10vh;
+    font-size: 2rem;
+}
+
+.s{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.s1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgba(239,202,69,255);
+}
+
+.s div{
+    height: 6vh;
+    width: 6vh;
+    border: 1px solid white;
+    border-radius: 100px;
+    margin: 2vh;
+}
+
+.s1 div{
+    height: 6vh;
+    width: 6vh;
+    border: 1px solid white;
+    border-radius: 100px;
+    margin: 2vh;
+}
+
+.profil1{
+    background: url(ftoledo.png)rgba(239,202,69,255);
+    background-position: center;
+    background-size: cover;
+}
+
+.surfeur{
+    display: flex;
+    flex-direction: column;
+}
+
+.drapeaubrezil{
+    background: url(brezil.png);
+    background-position: center;
+    background-size: cover;
+    width: 15px;
+    height: 10px;
+    display: block;
+    margin-right: 1vh;
+}
+
+.drapeaujapon{
+    background: url(japon.png);
+    background-position: center;
+    background-size: cover;
+    width: 15px;
+    height: 10px;
+    display: block;
+    margin-right: 1vh;
+}
+
+.drapeauaustralie{
+    background: url(australie.png);
+    background-position: center;
+    background-size: cover;
+    width: 15px;
+    height: 10px;
+    display: block;
+    margin-right: 1vh;
+}
+
+.drapeaufrance{
+    background: url(france.png);
+    background-position: center;
+    background-size: cover;
+    width: 15px;
+    height: 10px;
+    display: block;
+    margin-right: 1vh;
+}
+
+.drapeauhawaii{
+    background: url(hawaii.png);
+    background-position: center;
+    background-size: cover;
+    width: 15px;
+    height: 10px;
+    display: block;
+    margin-right: 1vh;
+}
+
+.drapeaucostarica{
+    background: url(costarica.png);
+    background-position: center;
+    background-size: cover;
+    width: 15px;
+    height: 10px;
+    display: block;
+    margin-right: 1vh;
+}
+
+
+
+.pays{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    flex: 1 1 2rem;
+}
+
+.nompays{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+
+.profil2{
+    background: url(iferreira.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil3{
+    background: url(jrobinson.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil4{
+    background: url(eewing.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil5{
+    background: url(kigarashi.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil6{
+    background: url(sgilmore.png)rgba(239,202,69,255);
+    background-position: center;
+    background-size: cover;
+}
+
+.profil7{
+    background: url(cmoore.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil8{
+    background: url(jdefay.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil9{
+    background: url(tweston-webb.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil10{
+    background: url(bhennessy.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.tableau{
+    font-size: 1.5rem;
+}

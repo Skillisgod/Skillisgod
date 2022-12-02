@@ -1,0 +1,443 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 2.6rem;
+}
+
+h2 {
+    font-size: 5rem;
+    margin: 3rem;
+}
+
+h3 {
+    font-size: 5rem;
+    margin: 3vh;
+}
+
+h4 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+
+li {
+    font-size: 2rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: black;
+}
+
+
+
+.main-head {
+    background: rgba(0, 18, 56, 255);
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo {
+    flex: 1 1 40rem;
+}
+
+button{
+    padding: 1vh 5vh;
+    margin: 2vh;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+/* SECTION */
+
+.deroulant{
+    background: black;
+    min-height: 5vh;
+    color: white;
+    margin-left: 5vh;
+}
+
+.hero1 {
+    min-height: 75vh;
+    background: linear-gradient(rgb(0, 0, 0, 0.4), transparent), url('wth.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tableau{
+    background: black;
+    min-height: 75vh;
+    color: white;
+    display: flex;
+}
+
+.tableauh{
+    border-collapse: collapse;
+    margin: 2vh 0;
+    font-size: 2rem;
+    min-width: 100%;
+}
+
+.tableauh thead tr{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.tableauh tbody tr{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.tableauh tbody tr:nth-of-type(even){
+    background-color: rgb(10, 10, 10);
+}
+
+.tableauh thead th.points{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.tableauh thead th.nom{
+    text-align: left;
+    padding-left: 4vh;
+}
+
+.tableauh tbody td.points{
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.tableauh tbody tr td.premier{
+    color: rgba(239,202,69,255);
+}
+
+.tableauh tbody tr.premiers{
+    border-top: 2px dashed rgba(239,202,69,255);
+}
+
+.profil{
+    padding: 10px 0;
+}
+
+
+/*  Profils */
+
+.profil1{
+    background: url(ftoledo.png)rgba(239,202,69,255);
+    background-position: center;
+    background-size: cover;
+}
+
+.profil2{
+    background: url(iferreira.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil3{
+    background: url(jrobinson.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil4{
+    background: url(eewing.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil5{
+    background: url(kigarashi.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil6{
+    background: url(ftoledo.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil7{
+    background: url(iferreira.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil8{
+    background: url(jrobinson.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil9{
+    background: url(eewing.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil10{
+    background: url(kigarashi.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil11{
+    background: url(ftoledo.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil12{
+    background: url(iferreira.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil13{
+    background: url(jrobinson.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil14{
+    background: url(eewing.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil15{
+    background: url(kigarashi.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil16{
+    background: url(ftoledo.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil17{
+    background: url(iferreira.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil18{
+    background: url(jrobinson.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil19{
+    background: url(eewing.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil20{
+    background: url(kigarashi.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil21{
+    background: url(ftoledo.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil22{
+    background: url(iferreira.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil23{
+    background: url(jrobinson.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+.profil24{
+    background: url(gmedina.png)#333;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+.s{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.s1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgba(239,202,69,255);
+    align-items: center;
+    justify-content: left;
+}
+
+.s div{
+    height: 6vh;
+    width: 6vh;
+    border: 1px solid white;
+    border-radius: 100px;
+    margin: 0 2vh;
+}
+
+.s1 div{
+    height: 6vh;
+    width: 6vh;
+    border: 1px solid white;
+    border-radius: 100px;
+    margin: 0 2vh;
+}
+
+.surfeur{
+    display: flex;
+    flex-direction: column;
+}
+
+/*  Drapeaux    */
+
+.drapeaubrezil{
+    background: url(brezil.png);
+    background-position: center;
+    background-size: cover;
+    width: 15px;
+    height: 10px;
+    display: block;
+    margin-right: 1vh;
+}
+
+.drapeaujapon{
+    background: url(japon.png);
+    background-position: center;
+    background-size: cover;
+    width: 15px;
+    height: 10px;
+    display: block;
+    margin-right: 1vh;
+}
+
+.drapeauaustralie{
+    background: url(australie.png);
+    background-position: center;
+    background-size: cover;
+    width: 15px;
+    height: 10px;
+    display: block;
+    margin-right: 1vh;
+}
+
+.drapeaufrance{
+    background: url(france.png);
+    background-position: center;
+    background-size: cover;
+    width: 15px;
+    height: 10px;
+    display: block;
+    margin-right: 1vh;
+}
+
+.drapeauhawaii{
+    background: url(hawaii.png);
+    background-position: center;
+    background-size: cover;
+    width: 15px;
+    height: 10px;
+    display: block;
+    margin-right: 1vh;
+}
+
+.drapeaucostarica{
+    background: url(costarica.png);
+    background-position: center;
+    background-size: cover;
+    width: 15px;
+    height: 10px;
+    display: block;
+    margin-right: 1vh;
+}
+
+.drapeauetatsunis{
+    background: url(etatsunis.png);
+    background-position: center;
+    background-size: cover;
+    width: 15px;
+    height: 10px;
+    display: block;
+    margin-right: 1vh;
+}
+
+.drapeauafriquedusud{
+    background: url(afriquedusud.png);
+    background-position: center;
+    background-size: cover;
+    width: 15px;
+    height: 10px;
+    display: block;
+    margin-right: 1vh;
+}
+
+.pays{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    flex: 1 1 2rem;
+}
+
+.nompays{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
