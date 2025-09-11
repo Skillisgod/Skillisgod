@@ -28,4 +28,4 @@
 
 ✨ N’hésite pas à jeter un œil à mes projets et à me suivre !
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Skillisgod&hide=prs,issues&theme=dark#gh-dark-mode-only)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Skillisgod&hide=prs,issues&theme=github_dark)
