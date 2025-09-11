@@ -28,5 +28,5 @@
 
 ✨ N’hésite pas à jeter un œil à mes projets et à me suivre !
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Skillisgod&show_icons=true&theme=dark)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Skillisgod&show_icons=true)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Skillisgod&layout=donut-vertical)](https://github.com/Skillisgod/github-readme-stats)
