@@ -1,8 +1,7 @@
-# 👋 Salut, moi c’est [Ton Prénom]
+# 👋 Salut, moi c’est Skillisgod
 
 🎓 Étudiant en Bac +3, en recherche d’une alternance dans le développement web (Angular / Java).  
 💻 Passionné par la création, la conceptualisation et le travail en équipe.  
-🌱 Actuellement, j’explore **Spring Boot**, **Docker** et les nouveautés d’**Angular 18/19**.  
 
 ---
 
@@ -16,15 +15,12 @@
 ---
 
 ## 🚀 Projets
-- **SecureNotes** : application avec login sécurisé et backend Java  
-- **Job Board** : plateforme web en PHP/MySQL  
-- **Portfolio** : site personnel en Python/JS/CSS  
-- **Surf App** : appli mobile avec prévisions météo (ECMWF API + React Native)  
+- **ApexLytics** : site web pour visionner des données sur les joueurs d'Apex Legend
 
 ---
 
 ## 📌 Objectifs
-- Devenir développeur **Fullstack Angular/Java**  
+- Devenir développeur **Fullstack**  
 - Participer à des projets innovants et collaboratifs  
 - Toujours apprendre et repousser mes limites 🚀  
 
