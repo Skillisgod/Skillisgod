@@ -15,7 +15,7 @@
 ---
 
 ## 🚀 Projets
-- **ApexLytics** : site web pour visionner des données sur les joueurs d'Apex Legend
+- **ApexLytics** : site web pour visionner des données sur les joueurs d'Apex Legends
 
 ---
 
