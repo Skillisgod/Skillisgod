@@ -1,6 +1,6 @@
 # 👋 Salut, moi c’est Skillisgod
 
-🎓 Étudiant en Bac +3, en recherche d’une alternance dans le développement web.  
+🎓 Étudiant en Bac +3, alternant chez Cristal Décisions.  
 💻 Passionné par la création, la conceptualisation et le travail en équipe.  
 
 ---
